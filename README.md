@@ -25,16 +25,19 @@ Using my knowledge of TensorFlow, I optimized the model in order to achieve a ta
 - The model's weights are saved every 5 epochs
 - The results are saved to an HDF5 file
 ## Deliverable 4: A Written Report on the Neural Network Model
-- There is a title, and there are multiple sections (2 pt)
-- Each section has a heading and subheading (2 pt)
-- Links to images are working, and code is formatted and displayed correctly (2 pt)
-- The purpose of this analysis is well defined (4 pt)
-- There is a bulleted list that answers all six questions (15 pt)
-What variable(s) are considered the target(s) for your model?
-What variable(s) are considered to be the features for your model?
-What variable(s) are neither targets nor features, and should be removed from the input data?
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take to try and increase model performance?
-- There is a summary of the results (2 pt)
-- There is a recommendation on using a different model to solve the classification problem, and justification (3 pt)
+#### Overview of the analysis: 
+Explain the purpose of this analysis.
+ - The purpose of this analysis is well defined
+#### Results
+There is a bulleted list that answers all six questions
+- What variable(s) are considered the target(s) for your model?
+- What variable(s) are considered to be the features for your model?
+- What variable(s) are neither targets nor features, and should be removed from the input data?
+- How many neurons, layers, and activation functions did you select for your neural network model, and why?
+- Were you able to achieve the target model performance?
+- What steps did you take to try and increase model performance?
+#### Summary
+Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+- There is a summary of the results
+- There is a recommendation on using a different model to solve the classification problem, and justification
+- Links to images are working, and code is formatted and displayed correctly
