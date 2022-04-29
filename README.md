@@ -28,25 +28,24 @@ Using my knowledge of TensorFlow, I design a neural network/deep learning model,
 ## Deliverable 3: Optimize the Model
 Using my knowledge of TensorFlow, I optimized the model in order to achieve a target predictive accuracy higher than 75%. 
 - Noisy variables are removed from features
+![image](https://user-images.githubusercontent.com/96395120/165890747-709ea308-a2b9-4f3e-8a30-612da78581a4.png)
 - Additional neurons are added to hidden layers
 - Additional hidden layers are added
+![image](https://user-images.githubusercontent.com/96395120/165890451-5aa95f26-b9c5-4094-86c2-e374246a9757.png)
 - The activation function of hidden layers or output layers is changed for optimization
 - The model's weights are saved every 5 epochs
+![image](https://user-images.githubusercontent.com/96395120/165890550-2eb58fc8-f45a-4628-bc8e-8314447b1bc1.png)
 - The results are saved to an HDF5 file
+![image](https://user-images.githubusercontent.com/96395120/165890580-16789696-c786-47d0-b98a-201f01ea96ff.png)
 ## Deliverable 4: A Written Report on the Neural Network Model
 #### Overview of the analysis: 
-Explain the purpose of this analysis.
- - The purpose of this analysis is well defined
+The purpose of this project is to understand deep-learning neural networks and the TensorFlow platform in Python, to help analyze the classification success of charitable donations.
 #### Results
-There is a bulleted list that answers all six questions
-- What variable(s) are considered the target(s) for your model?
-- What variable(s) are considered to be the features for your model?
-- What variable(s) are neither targets nor features, and should be removed from the input data?
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
-- Were you able to achieve the target model performance?
-- What steps did you take to try and increase model performance?
+- The "IS_SUCCESSFUL" variable is the target for the model.
+- APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are the features for the model.
+- EIN and NAME variable(s) are neither targets nor features, and are removed from the input data.
+- I selected input features & two hidden layers. The first hidden layer has 80 neurons, the second has 30 there is also an output layer. Each layer has an activation function. The first and second hidden layers have an activation function "relu" & the output layer is "sigmoid".
+- I was not able to reach the 75% model target.
+- Some of the steps I took to try and make the model more accurate were adding hidden layers, changing the activation type, changing the number of epochs and changing the number of neurons in each layer.
 #### Summary
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
-- There is a summary of the results
-- There is a recommendation on using a different model to solve the classification problem, and justification
-- Links to images are working, and code is formatted and displayed correctly
+The models accuracy ended up being around 73%.  I began with a data set and tried to predict whether or not the model would be successful on the features that I used after dropping 2 of the recommended irrelevant features.  While, I didn't get the 75% accuracy, the possible reason might be to add or delete more features to improve the neural network. To increase the accuracy of the model might be to provide more data. With a more substantial dataset for the model, the accuracy of the model could be more reliable.
